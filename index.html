@@ -8,7 +8,8 @@ html,body{margin:0;height:100%;background:#0b1118;overflow:hidden;font-family:sy
 #c{position:fixed;inset:0;width:100%;height:100%;display:block}
 #ui{position:fixed;inset:0;pointer-events:none}
 #ui>*{pointer-events:auto}
-#hud{position:absolute;left:14px;bottom:14px;width:min(260px,calc(100vw - 210px));min-width:150px;text-align:left;pointer-events:none}
+#hud{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);width:min(280px,48vw);min-width:150px;text-align:center;pointer-events:none}
+body.touch #hud{bottom:96px}
 #hpwrap{position:relative;height:16px;border-radius:8px;background:rgba(10,16,24,.7);border:1px solid rgba(255,255,255,.25);overflow:hidden}
 #hpfill{height:100%;width:100%;background:linear-gradient(#6fe08a,#2fb35a);transition:width .15s}
 #hpfill.low{background:linear-gradient(#ff8a7a,#d8432f)}
