@@ -33,6 +33,7 @@ body.touch #hud{bottom:96px}
 #xpfill{height:100%;width:0;background:linear-gradient(#9fd8ff,#4a9be8);transition:width .25s}
 #lvl{position:absolute;inset:0;font:700 10px/13px system-ui,sans-serif;color:#fff;text-align:center;text-shadow:0 1px 3px #000}
 .fl.xp{color:#9fd8ff;font-size:17px}
+#ver{position:absolute;right:6px;top:4px;font:600 9px/1 ui-monospace,Menlo,monospace;color:#fff;opacity:.4;pointer-events:none;text-shadow:0 1px 3px #000}
 #lvlup{position:absolute;left:50%;top:30%;transform:translate(-50%,-50%) scale(.8);text-align:center;font:800 34px system-ui,sans-serif;letter-spacing:.18em;color:#ffe27a;text-shadow:0 3px 12px #000;opacity:0;transition:opacity .35s,transform .35s;pointer-events:none}
 #lvlup small{display:block;white-space:nowrap;font-size:13px;letter-spacing:.08em;color:#fff;margin-top:6px}
 #lvlup.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
@@ -83,7 +84,7 @@ body.touch #panel button kbd{display:none}
 <body>
 <canvas id="c"></canvas>
 <div id="ui">
-  <div id="hud"><div id="kills"></div><div id="hpwrap"><div id="hpfill"></div><span id="hptext"></span></div><div id="xpwrap"><div id="xpfill"></div><span id="lvl"></span></div></div><div id="lvlup"></div>
+  <div id="hud"><div id="kills"></div><div id="hpwrap"><div id="hpfill"></div><span id="hptext"></span></div><div id="xpwrap"><div id="xpfill"></div><span id="lvl"></span></div></div><div id="lvlup"></div><div id="ver">v1.11</div>
   <div id="floaters"></div><div id="vignette"></div><div id="banner">DEFEATED<small>Respawning…</small></div>
   <div id="title"><div id="now">…</div></div>
   <div id="tools"><button id="gear" title="Settings">⚙</button><button id="fs" title="Fullscreen">⛶</button><button id="fpsb" title="FPS counter" style="font-size:12px;font-weight:700">FPS</button><div id="fps"></div></div>
