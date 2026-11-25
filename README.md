@@ -32,3 +32,6 @@ Built with [three.js](https://threejs.org/).
 
 ## Progression
 Killing monsters earns XP. Each level raises max health (+15) and damage (+8%) and fully heals you. Progress is saved in the browser. Health and XP bars sit at the bottom-left of the screen.
+
+## Attributes
+Five stats modelled on RYL 2: **STR** (melee damage, hit rate), **DEX** (hit rate, crit, evasion), **CON** (max HP, regen, defense), **INT** (spell damage) and **WIS** (max MP, MP regen, heal power, magic resistance). On first launch you pick a growth path (Warrior, Defender, Assassin, Archer, Sorcerer, Enchanter, Priest or Cleric) and spend 5 bonus points; each level gives 2 more points plus the path's automatic gains. Primary stats of your path cost 2 points per +1, others 1. Respec any time. Spells: Cast bolt (X, 8 MP) and Heal (H, 20 MP). Open the stats panel with the ST button or V.
