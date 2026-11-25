@@ -29,3 +29,6 @@ Worms chase you, bite for damage and can be dodged by jumping. Icy dragons are r
 - "fern grass 02" by Digital screen official
 
 Built with [three.js](https://threejs.org/).
+
+## Progression
+Killing monsters earns XP. Each level raises max health (+15) and damage (+8%) and fully heals you. Progress is saved in the browser. Health and XP bars sit at the bottom-left of the screen.
